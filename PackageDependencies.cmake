@@ -133,6 +133,7 @@ package_dependency_map(boost-program-options
 
 # LLVM 19
 package_dependency_map(llvm-19
+    "ubuntu 22.04" "llvm-19"
     "ubuntu 24.04" "llvm-19"
     "ubuntu 25.04" "llvm-19"
     "debian 13"    "llvm-19"
@@ -141,6 +142,7 @@ package_dependency_map(llvm-19
 
 # Clang 19
 package_dependency_map(clang-19
+    "ubuntu 22.04" "clang-19"
     "ubuntu 24.04" "clang-19"
     "ubuntu 25.04" "clang-19"
     "debian 13"    "clang-19"
@@ -150,6 +152,7 @@ package_dependency_map(clang-19
 
 # LLD 19
 package_dependency_map(lld-19
+    "ubuntu 22.04" "lld-19"
     "ubuntu 24.04" "lld-19"
     "ubuntu 25.04" "lld-19"
     "debian 13"    "lld-19"
