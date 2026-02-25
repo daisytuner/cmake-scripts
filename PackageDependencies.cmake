@@ -127,24 +127,21 @@ endfunction()
 # Boost Program Options
 package_dependency_map(boost-program-options
     "ubuntu 24.04" "libboost-program-options1.83.0"
+    "ubuntu 26.04" "libboost-program-options1.90.0"
     "debian 13"    "libboost-program-options1.83.0"
     "rhel 10"      "boost-program-options"
 )
 
 # LLVM 19
 package_dependency_map(llvm-19
-    "ubuntu 22.04" "llvm-19"
-    "ubuntu 24.04" "llvm-19"
-    "ubuntu 25.04" "llvm-19"
+    "ubuntu" "llvm-19"
     "debian 13"    "llvm-19"
     "rhel 10"      "llvm19"
 )
 
 # Clang 19
 package_dependency_map(clang-19
-    "ubuntu 22.04" "clang-19"
-    "ubuntu 24.04" "clang-19"
-    "ubuntu 25.04" "clang-19"
+    "ubuntu" "clang-19"
     "debian 13"    "clang-19"
     "rhel 10"      "clang19"
 )
@@ -152,25 +149,23 @@ package_dependency_map(clang-19
 
 # LLD 19
 package_dependency_map(lld-19
-    "ubuntu 22.04" "lld-19"
-    "ubuntu 24.04" "lld-19"
-    "ubuntu 25.04" "lld-19"
+    "ubuntu" "lld-19"
     "debian 13"    "lld-19"
     "rhel 10"      "lld19"
 )
 
 package_dependency_map(ziptool
-    "ubuntu 24.04" "ziptool"
+    "ubuntu" "ziptool"
     "debian 13"    "ziptool"
 )
 
 package_dependency_map(zipcmp
-    "ubuntu 24.04" "zipcmp"
+    "ubuntu" "zipcmp"
     "debian 13"    "zipcmp"
 )
 
 package_dependency_map(zipmerge
-    "ubuntu 24.04" "zipmerge"
+    "ubuntu" "zipmerge"
     "debian 13"    "zipmerge"
 )
 
