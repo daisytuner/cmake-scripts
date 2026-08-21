@@ -143,7 +143,7 @@ package_dependency_map(llvm-19
 package_dependency_map(llvm-21
     "ubuntu" "llvm-21"
     "debian 13"    "llvm-21"
-    "rhel 10"      "llvm21"
+    "rhel 10"      "llvm"
 )
 
 # Clang 19
@@ -157,7 +157,7 @@ package_dependency_map(clang-19
 package_dependency_map(clang-21
     "ubuntu" "clang-21"
     "debian 13"    "clang-21"
-    "rhel 10"      "clang21"
+    "rhel 10"      "clang"
 )
 
 
@@ -172,7 +172,7 @@ package_dependency_map(lld-19
 package_dependency_map(lld-21
     "ubuntu" "lld-21"
     "debian 13"    "lld-21"
-    "rhel 10"      "lld21"
+    "rhel 10"      "lld"
 )
 
 package_dependency_map(ziptool
